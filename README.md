@@ -1,4 +1,4 @@
-# Carla VR Chair Addon
+# CARLA_MotionVRConnect
 
 This extension is built on top of **CARLA 0.9.15** and is based on the **developer version** of CARLA.
 
@@ -34,14 +34,14 @@ To add these functionalities to your existing CARLA setup:
 
 5. Use the following commands in cmd in your carla folder, to make a new compilation (avoid using **make rebuild**):
    - make clean
-   - make libcarla
-   - make pythonapi
+   - make LibCarla
+   - make PythonAPI
    - make launch
 
 6. Follow the guidelines presented in the pdf files in this same directory through this order:
-   - VR Setup Guide for Carla VR Chair Addon
-   - Vehicle Control Setup for Carla VR Chair Addon
-   - Chair Setup for Carla VR Chair Addon
+   - CARLA_MotionVRConnect_VR_Setup_Guide.pdf
+   - CARLA_MotionVRConnect_Vehicle_Control_Setup.pdf
+   - CARLA_MotionVRConnect_Chair_Setup.pdf
 
    These documents provide step-by-step instructions to configure VR, vehicle controls, and motion chair support.
 

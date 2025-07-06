@@ -48,6 +48,21 @@ The directory `carla-vr-chair-addon/ScenarioTown02Maker/Town02SpawnPoints` conta
 Pedestrians are spawned on sidewalks near each vehicle’s spawn point. However, not all spawn points are valid for walkers due to collisions with nearby objects.
 To determine which points are unsuitable for pedestrians, refer to `carla-vr-chair-addon/ScenarioTown02Maker/utils/walker_utils.py`, where such points are programmatically filtered and documented.
 
+## Metrics
+The metrics directory contains visual performance data collected using Unreal Session Frontend.
+These include:
+
+- Line charts showing the evolution of performance metrics (Game Thread, Render Thread, and GPU) over time;
+- Histograms that represent the frame rate (FPS) distribution in each test scenario.
+
+Each file name reflects the test configuration using the following abbreviations:
+SH: Without complementary hardware
+CH: With complementary hardware (YawVR, Logitech G923)
+V: Number of vehicles
+P: Number of pedestrians
+
+For example, CH_3V_3P refers to the test with hardware enabled and a scenario containing 3 vehicles and 3 pedestrians.
+
 ## Notes
 
 There are two notable limitations when integrating this script with the CARLA VR Chair Addon:
