@@ -4,10 +4,22 @@ This extension is built on top of **CARLA 0.9.15** and is based on the **develop
 
 ## Overview
 
-The addon introduces new functionalities and assets to enhance your CARLA simulation experience. It extends the base CARLA framework with additional blueprints, Python APIs, and scenario tools.
+CARLA_MotionVRConnect is an extension of the CARLA 0.9.15 simulator designed to support immersive, human-in-the-loop simulations using virtual reality, a motion platform (YawVR), and physical driving hardware such as the Logitech G923 racing wheel and pedals.
+The addon introduces new Unreal Engine Blueprints, C++ classes, and Python scripts to enable:
+- VR camera integration with seated view and head tracking
+- Real-time control of a motion chair (yaw, pitch, roll) based on vehicle dynamics
+- Manual driving with input from steering wheel and pedals
+- Custom pedestrian detection and V2V communication sensors
+- Adaptive sound cue systems to enhance spatial awareness
+- A 2D minimap and speedometer displayed in the vehicle HUD
+- Modular scenario creation via the ScenarioTown02Maker tool
 
 > **Note:** This project is intended to run **only within the Unreal Editor**.  
 > It is not designed to be **packaged** or **shipped** as a standalone executable.
+
+### Demo Video
+
+[![Watch the demo](https://img.youtube.com/vi/VEfPHTE/0.jpg)](https://www.youtube.com/watch?v=VEfPHTE_M3I)
 
 ## Installation
 
